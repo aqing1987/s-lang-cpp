@@ -1,0 +1,27 @@
+#+TITLE: Multiple Template Arguments
+#+OPTIONS: ^:nil
+
+* Warnning
+Keep in mind that most of what you wanna do is templates of one
+argument. Once you start multiple argumentative templates, you get
+into horrendous complexity, unneeded complexity in most cases.
+
+* two arguments template
+#+BEGIN_SRC cpp
+  template <class T1, class T2>
+  void copy(const T1 source[], T2 destination[], int size) {
+    for (int i = 0; i < size; ++i)
+      destination[i] = static_cast<T2>(source[i]);
+  }
+#+END_SRC
+
+* C++ Casts
++ More types means worrying about conversions and more signatures
++ These static_cast operators are considered safe
++ The old cast operator (type) is deprecated as a reminder the other
+  casting operators are:
+  reinterpret_cast<type> // highly unsafe
+  dynamic_cast<type> // used with classes
+  const_cast<type> // cast away const-ness
+
+Note: use static_cast and don't use others.
