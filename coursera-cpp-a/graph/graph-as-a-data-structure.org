@@ -1,0 +1,45 @@
+#+TITLE: Graph as a data structure
+#+OPTIONS: ^:nil
+
+* different representation
++ Connectivity matrix (also distances)
++ Edge List Representation
++ Tradeoffs - Graph as an ADT
+
+The typical tradeoffs involve how much data you need to store.
+
+The edge list representation is typically much better when the graph
+is not full, when there's not large numbers of edges, high degrees.
+
+Typically the rule of thumb is dense graphs, matrix representation is
+frequently better. Sparse graphs, edge list representation is better.
+
+* list representation
+
++ Definition: A representation of a directed graph with n vertices
+  using an array of n lists of vertices.
+
++ List i contains vertex j if there is an edge from vertex i to 
+  vertex j.
+
++ A weighted graph may be represented with a list of vertex / weight
+  pairs.
+
++ An undirected graph may be represented by having vertex j in the
+  list for vertex i and vertex i in the list for vertex j.
+
+* Matrix vs. list directed graph
+** Matrix
+  1 2 3 4
+1 1 1 1 1
+2 1 0 0 0
+3 0 1 0 1
+4 0 1 1 0
+
+** List Directed
+1 -> 1 -> 2 -> 3 -> 4
+2 -> 1
+3 -> 2 -> 4
+4 -> 2 -> 3
+
+
