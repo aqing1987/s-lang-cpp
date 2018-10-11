@@ -1,0 +1,37 @@
+#+TITLE: C Type point as struct
+#+OPTIONS: ^:nil
+
+* C type extension
+
++ In C you can "add" a type using struct
+
++ In C++ struct is different - struct is a named scope that can
+  include functions (methods) and have differnet layers of opacity
+  (data hiding). While C++ retains struct it has the new keyword
+  class.
+
++ Class is almost equivalent to struct - but with different data
+  hiding defaults.
+
+
+In C++ because Bjarne started with struct. He wanted to retain C++
+usage. He created as an alternative to struct, class. Bjarne wanted
+to keep all the old C stuff around for you, and he extended the
+meanings of struct, but he created class because class is what you
+should use when you realy want full scale objects.
+
+* C type point as struct
+#+BEGIN_SRC c
+  typedef struct point {double x, y;} point;
+  void add_points(point* p1, point* p2, point* sum) {
+    sum->x = p1->x + p2->x;
+    sum->y = p1->y + p2->y;
+  }
+#+END_SRC
+
+* C struct
++ struct has fields - data members
+
++ File scope functions manipulate the struct using pointer operations
+
+This is the classic way, you might say the primitive way.
