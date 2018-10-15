@@ -1,0 +1,33 @@
+#+TITLE: learncpp
+#+OPTIONS: ^:nil
+
+LearnCpp.com is a free website devoted to teaching you how to program
+in C++. Whether you've had any prior programming experience or not, the
+tutorials on this site will walk you through all the steps to write,
+compile, and debug your C++ programs, all with plenty of examples.
+
+Becoming an expert won't happen overnight, but with a little patience,
+you'll get there. And LearnCpp.com will show you the way.
+
+* Chapter 0 Introduction / Getting Started
+* Chapter 1 C++ Basics
+* Chapter 2 Variables and Fundamental Data Types
+* Chapter 3 Operators
+* Chapter 4 Variable Scope and More Types
+* Chapter 5 Control Flow
+* Chapter 6 Arrays, Strings, Pointers, and References
+* Chapter 7 Functions
+* Chapter 8 Basic object-oriented programming
+* Chapter 9 Operator overloading
+* Chapter 10 An introduction to object relationships
+* Chapter 11 Inheritance
+* Chapter 12 Virtual Functions
+* Chapter 13 Templates
+* Chapter 14 Exceptions
+* Chapter 15 Move semantics and smart pointers
+* Chapter 16 The Standard Template Library
+* Chapter 17 std::string
+* chapter 18 Input and output (I/O)
+* Appendix A Miscellaneous Subjects
+* Appendix B C++ updates
+* Appendix C The end
