@@ -12,3 +12,6 @@ www.learncpp.com
 
 ## effective-c++-3rd
 For learning book Effective C++, Third Edition
+
+## beginning-c++-through-game-programming-4th
+Learn c++ from book beginning c++ through game programming, 4th edition
