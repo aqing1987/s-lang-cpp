@@ -10,6 +10,8 @@ Becoming an expert won't happen overnight, but with a little patience,
 you'll get there. And LearnCpp.com will show you the way.
 
 * Chapter 0 Introduction / Getting Started
+** 0.1 Introduction to these tutorials
+** 0.2 Introduction to programming languages
 * Chapter 1 C++ Basics
 * Chapter 2 Variables and Fundamental Data Types
 * Chapter 3 Operators
