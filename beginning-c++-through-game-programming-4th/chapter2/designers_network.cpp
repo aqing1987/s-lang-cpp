@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
     } else if (username == "W.Wright" && password == "thesims") {
       cout << "\nHow goes it, Will?";
       success = true;
-    } else if (username == "guest" && password == "guest") {
+    } else if (username == "guest" || password == "guest") {
       cout << "\nWelcome, guest.";
       success = true;
     } else {
